@@ -7,22 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="preload" href="_next/static/media/e4af272ccee01ff0-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
     <link rel="stylesheet" href="_next/static/css/2da42e9e2dde7ac8_formatted.css" data-precedence="next"/>
-    <link rel="preload" as="script" fetchPriority="low" href="_next/static/chunks/webpack-72a7fd73ad709a4c.js"/>
     
-    <script src="_next/static/chunks/4bd1b696-3dbde35d4f172e4c.js" async=""></script>
-    <script src="_next/static/chunks/684-0ffd91206decd885.js" async=""></script>
-    <script src="_next/static/chunks/main-app-bdff1c82851a68ad.js" async=""></script>
-    <script src="_next/static/chunks/app/layout-2f8b7c6e8b3baa5f.js" async=""></script>
-    <script src="_next/static/chunks/app/page-933f8dfbdb38ba4b.js" async=""></script>
+
     
     <meta name="next-size-adjust" content=""/>
     <title>santosh patapati</title>
     <meta name="description" content="17 yo developer, researcher, and entrepreneur. I build things that matter."/>
-    
-    <script>
-      document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))
-    </script>
-    <script src="_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+
   </head>
   
   <body class="__variable_e8ce0c font-sans antialiased">
@@ -59,7 +50,7 @@
           <section class="py-16">
             <div class="flex items-center gap-3 text-[#bababa] text-xs mb-8">
               <div class="w-1 h-1 bg-[#bababa] rounded-full"></div>
-              <span></span>
+              <span id="current-time">Loading time...</span>
               <div class="w-1 h-1 bg-[#bababa] rounded-full"></div>
               <span>Dallas, USA</span>
             </div>
@@ -76,28 +67,32 @@
               <div class="flex items-start gap-3">
                 <div class="text-[#bababa] mt-1">•</div>
                 <p class="text-[#bababa] text-sm">
-                  founding ML engineer @ stealth startup working on VLM optimization, scaling, and agentic AI: acquired by unicorn at $1M+
+                  <span class="text-[#e3e3e3]">founding ML engineer</span> @ stealth startup working on VLM optimization, scaling, and agentic AI: <span class="text-[#e3e3e3]">acquired by unicorn at $1M+</span>
                 </p>
               </div>
               <div class="flex items-start gap-3">
                 <div class="text-[#bababa] mt-1">•</div>
                 <p class="text-[#bababa] text-sm">
-                  founding ML engineer @ pre-series HealthTech startup working on algorithms and patents for micro-targeted health solutions: raising Series A in fall
+                  <span class="text-[#e3e3e3]">published AI / CS papers</span> in conferences 
+                  (<a href="https://www.interspeech2025.org/" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">Interspeech</a>), 
+                  workshops 
+                  (<a href="https://cvpr.thecvf.com/" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">CVPRW</a>, 
+                  <a href="https://dsn2025.github.io/" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">DSN-W</a>, 
+                  <a href="https://2025.ieeeicme.org//" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">ICME-W</a>), 
+                  and grand challenges (MiGA) 
                 </p>
               </div>
               <div class="flex items-start gap-3">
                 <div class="text-[#bababa] mt-1">•</div>
                 <p class="text-[#bababa] text-sm">
-                  published 5+ 
-                  <a href="https://arxiv.org/abs/2505.01881" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">papers</a> 
-                  in top CS conferences (eg. CVPR, DSN, ICME, Interspeech)
+                  <span class="text-[#e3e3e3]">founding ML engineer</span> @ pre-series HealthTech startup working on algorithms and patents for micro-targeted personalized medicine: raising Series A in fall
                 </p>
               </div>
               <div class="flex items-start gap-3">
                 <div class="text-[#bababa] mt-1">•</div>
                 <p class="text-[#bababa] text-sm">
                   created a 
-                  <a href="https://vegawebfilter.org/" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">SOTA web filter for k-12 schools</a> 
+                  <span class="text-[#e3e3e3] text-sm">SOTA web filter for k-12 schools</span>
                   in collaboration with 
                   <a href="https://www.friscoisd.org/" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">FriscoISD</a> 
                   and researchers from 
@@ -115,40 +110,39 @@
           <section class="py-4" id="about">
             <h4 class="text-[#bababa] text-sm mb-4 uppercase tracking-wider">My Story:</h4>
             <div class="space-y-4 text-[#bababa] leading-relaxed text-sm mb-8">
-              <p>at 12, i started creating programming tutorials on youtube and teaching python classes. by 13, i had built and scaled a web proxy company to 850k users.</p>
-              <p>my journey has taken me through various roles - from research assistant at unt working on vr technology, to founding multiple startups in edtech, ai, and infrastructure. each experience has shaped my approach to building and problem-solving.</p>
+              <p>i started building in 5th grade to make my own web-based video game with javascript. then, i built my first website with html and css for a history project, hosted on github pages. i learned more about object-oriented programming when making a console version of pokemon red.</p>
+              <p>i discovered AI in 7th grade. my first project was a simple face finder using opencv. from there, i build a virtual spacebar using hand recognition so i could control youtube videos while eating. as a kid, i continued to tinker, from making an RL-based 3D autonomous car, to destroying web games with computer vision, training a yolo model for drowsy driver detection, and even automating valorant gameplay with a yolo-based pipeline.</p>
               <p>
                 these days, i'm focused on 
-                <span class="text-white">applied ml research</span> at 
-                <span class="text-white">cyrionlabs</span>, 
-                <span class="text-white">privacy & security</span> research at 
-                <span class="text-white">nyu</span>, and 
-                <span class="text-white">making technology more accessible</span> 
-                through my work at 
-                <span class="text-white">computers for the blind</span>. 
-                but i'm always on the lookout for the next big thing to build in the startup space
+                <span class="text-white">applied and theoretical ML research</span>,
+                <span class="text-white">optimizing and deploying AI</span> at startups,
+                <span class="text-white">contributing to open-source</span>, and
+                <span class="text-white">teaching AI to the next generation</span> as an instructor at AI Camp.
               </p>
             </div>
             
-            <!-- Collapsible sections -->
-            <div class="space-y-3 mb-8">
-              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none">
-                <button class="w-full p-3 py-2.5 text-left text-[#bababa] text-xs hover:underline flex justify-between items-center uppercase tracking-wider">
-                  <span>what drives me</span>
-                  <span class="underline">OPEN</span>
-                </button>
+            <!-- Content sections -->
+            <div class="space-y-6 mb-8">
+              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none p-3">
+                <h5 class="text-[#bababa] text-xs mb-3 uppercase tracking-wider">what drives me</h5>
+                <div class="text-[#bababa] text-xs leading-relaxed">
+                  <p>i'm driven by the belief that technology should amplify human potential, not replace it. every project i work on stems from a desire to solve real problems that affect real people. whether it's making education more accessible, improving privacy and security, or advancing AI research, i'm motivated by the impact these solutions can have on individuals and communities.</p>
+                  <p class="mt-3">the intersection of innovation and social good is where i find my purpose. i believe in building technology that's not just impressive, but meaningful.</p>
+                </div>
               </div>
-              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none">
-                <button class="w-full p-3 py-2.5 text-left text-[#bababa] text-xs hover:underline flex justify-between items-center uppercase tracking-wider">
-                  <span>my philosophy</span>
-                  <span class="underline">OPEN</span>
-                </button>
+              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none p-3">
+                <h5 class="text-[#bababa] text-xs mb-3 uppercase tracking-wider">my philosophy</h5>
+                <div class="text-[#bababa] text-xs leading-relaxed">
+                  <p>i operate on the principle that the best solutions come from deep understanding of the problem space. before writing a single line of code, i invest time in research, user interviews, and understanding the broader context of what i'm building.</p>
+                  <p class="mt-3">collaboration over competition. some of my best work has come from partnerships with brilliant people who challenge my thinking and push me to consider perspectives i might have missed.</p>
+                  <p class="mt-3">move fast, but move thoughtfully. speed is important in tech, but not at the expense of quality or ethics. every technical decision should consider its long-term implications.</p>
+                </div>
               </div>
-              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none">
-                <button class="w-full p-3 py-2.5 text-left text-[#bababa] text-xs hover:underline flex justify-between items-center uppercase tracking-wider">
-                  <span>when i'm not coding</span>
-                  <span class="underline">OPEN</span>
-                </button>
+              <div class="bg-[#1f1f1f] border border-[#bababa] border-opacity-30 rounded-none p-3">
+                <h5 class="text-[#bababa] text-xs mb-3 uppercase tracking-wider">when i'm not coding</h5>
+                <div class="text-[#bababa] text-xs leading-relaxed">
+                  <p>i love music. in particular, i listen to people like denzel curry, jid, and joey bada$$. i also listen to podcasts. my favorite podcasts include BG2, My First Million, Freakonomics, (the old) All-In Pod, and Scott Galloway</p>
+                </div>
               </div>
             </div>
           </section>
@@ -165,11 +159,25 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <a href="https://cyrionlabs.org/" class="text-[#bababa] hover:text-white underline text-sm">president at cyrionlabs</a>
+                        <a href="https://claisen.com/" class="text-[#bababa] hover:text-white underline text-sm">founding ML engineer @ claisen</a>
+                        <span class="text-[#bababa] text-xs">(2025)</span>
+                        <span class="text-[#bababa] text-xs">[ongoing]</span>
+                      </div>
+                      <p class="text-[#bababa] text-xs leading-relaxed">developing lightweight ML models & contributing to patent applications for large-scale personalized medicine @ pre-series startup; raising Series A in fall</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-[#bababa] mt-1">•</div>
+                  <div class="flex-1">
+                    <div class="flex flex-col gap-1">
+                      <div class="flex items-center gap-2">
+                        <p class="text-[#bababa] underline text-sm">co-president @ cyrionlabs 501(c)(3)</p>
                         <span class="text-[#bababa] text-xs">(2024)</span>
                         <span class="text-[#bababa] text-xs">[active]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">applied ML research lab with researchers from UPenn, Cornell, CMU, MIT; monetarily funded by Texas Workforce Comission, SMU, and Beal Bank</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">applied ML research lab providing resources to undergrads with researchers from UPenn, Cornell, CMU, MIT; monetarily funded by Texas Workforce Comission, SMU, and Beal Bank</p>
                     </div>
                   </div>
                 </div>
@@ -179,25 +187,39 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <a href="https://hdanny.org/" class="text-[#bababa] hover:text-white underline text-sm">research intern at nyu</a>
-                        <span class="text-[#bababa] text-xs">(2025)</span>
-                        <span class="text-[#bababa] text-xs">[active]</span>
-                      </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">working on characterizing school tech systems in the US and analyzing their impact on student privacy and security</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="text-[#bababa] mt-1">•</div>
-                  <div class="flex-1">
-                    <div class="flex flex-col gap-1">
-                      <div class="flex items-center gap-2">
-                        <a href="https://computersfortheblind.org/" class="text-[#bababa] hover:text-white underline text-sm">refurbishing technician at cftb</a>
+                        <a href="https://www.moles.washington.edu/" class="text-[#bababa] hover:text-white underline text-sm">research intern @ uwash</a>
                         <span class="text-[#bababa] text-xs">(2024)</span>
                         <span class="text-[#bababa] text-xs">[ongoing]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">refurbishing computers for visually impaired individuals; providing them with affordable technology to enhance their daily lives and accessibility</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">classifying SARS-CoV-2 (COVID-19 causing virus) RNA strands in real-time from physics data collected via nanotech (single molecule break junction) using GNNs and compiler-level optimizations</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-[#bababa] mt-1">•</div>
+                  <div class="flex-1">
+                    <div class="flex flex-col gap-1">
+                      <div class="flex items-center gap-2">
+                        <a href="https://github.com/paulgavrikov/visualkeras/" class="text-[#bababa] hover:text-white underline text-sm">maintainer of visualkeras</a>
+                        <span class="text-[#bababa] text-xs">(2024)</span>
+                        <span class="text-[#bababa] text-xs">[active]</span>
+                      </div>
+                      <p class="text-[#bababa] text-xs leading-relaxed">sole maintainer of ML visualization library w/ 600+ GitHub stars, 300k+ downloads; writing paper for Journal of Open Source Software </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-[#bababa] mt-1">•</div>
+                  <div class="flex-1">
+                    <div class="flex flex-col gap-1">
+                      <div class="flex items-center gap-2">
+                        <a href="https://www.ai-camp.org/" class="text-[#bababa] hover:text-white underline text-sm">instructor @ ai camp</a>
+                        <span class="text-[#bababa] text-xs">(2023)</span>
+                        <span class="text-[#bababa] text-xs">[ongoing]</span>
+                      </div>
+                      <p class="text-[#bababa] text-xs leading-relaxed">teaching 120+ younger students about AI concepts, ethics, and use cases; developing course for undergrads on Autoencoders and Transformer architectures in the real-world</p>
                     </div>
                   </div>
                 </div>
@@ -205,11 +227,13 @@
               </div>
             </div>
 
+            <!--
             <div class="mb-8">
               <p class="text-[#bababa] text-sm leading-relaxed">i make things; alot of them</p>
             </div>
+            -->
 
-            <h4 class="text-[#bababa] text-sm mb-4 uppercase tracking-wider">My previous ventures:</h4>
+            <h4 class="text-[#bababa] text-sm mb-4 uppercase tracking-wider">My previous work:</h4>
             <div class="mb-8">
               <div class="space-y-4">
                 
@@ -219,11 +243,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2024-2025)</span>
-                        <a href="https://web.archive.org/web/20250520225426/https://extracurriculars.com/" class="text-[#bababa] hover:text-white underline text-sm">founder at extracurriculars.com</a>
+                        <span class="text-[#bababa] text-xs">(2024)</span>
+                        <a href="https://www.3blue1brown.com/" class="text-[#bababa] hover:text-white underline text-sm">ML engineer @ 3blue1brown</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">edtech platform for k-12 students to discover and join extracurricular activities, clubs, and competitions; acquisition offer by YC backed startup, funded by JainVC</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">built ML pipeline to automate transcription and dubbing of 3Blue1Brown videos into 30+ languages; led client meetings and successfully implemented for videos totalling 100M+ views</p>
                     </div>
                   </div>
                 </div>
@@ -233,11 +257,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2024-2025)</span>
-                        <a href="https://sciencefair.io/" class="text-[#bababa] hover:text-white underline text-sm">lead developer at sciencefair.io</a>
+                        <span class="text-[#bababa] text-xs">(2024)</span>
+                        <a href="https://bastlabs.org/" class="text-[#bababa] hover:text-white underline text-sm">nanotech & ML research assistant @ smu bast lab</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">hired as a contract developer originally, was asked to take over after CTO left to polish the platform before acquisition; recently sold for the upper six figures to a large ed-tech company</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">investigated impact of different propulsion systems on nanobot maneuverability in simulated vascular networks; developed visualizations and analyses for research report on methodology and findings</p>
                     </div>
                   </div>
                 </div>
@@ -247,11 +271,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2024-2025)</span>
-                        <a href="https://perfectsat.co/" class="text-[#bababa] hover:text-white underline text-sm">founder at perfect sat</a>
+                        <span class="text-[#bababa] text-xs">(2024)</span>
+                        <a href="https://ieeenano.org/about" class="text-[#bababa] hover:text-white underline text-sm">ML research assistant @ ieee nanotechnology council</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">free platform for 24/7 sat prep; features practice tests, personalized study plans, and progress tracking; supercharged with AI</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">fine-tuned open-source LLMs and coupled them with GNNs for materials science applications using scraped data; aimed to improve predictive accuracy, reduce cost, and aid in development of new materials</p>
                     </div>
                   </div>
                 </div>
@@ -261,11 +285,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2024-2024)</span>
-                        <a href="https://web.archive.org/web/20240526210027/http://xenosnode.com/" class="text-[#bababa] hover:text-white underline text-sm">founder at xenos node</a>
+                        <span class="text-[#bababa] text-xs">(2024)</span>
+                        <a href="https://genloop.ai/" class="text-[#bababa] hover:text-white underline text-sm">ML engineer @ genloop</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">freemium hosting services; featuring game servers, vps and dedicated servers for reasonable prices with a focus on performance and reliability</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">developed culturally-adaptive WhatsApp-based health advisor for under-resourced communities; integrated Ayurvedic knowledge and low-resource language NLP for open-source LLMs: work w/ Indian govt. to deploy</p>
                     </div>
                   </div>
                 </div>
@@ -275,11 +299,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2024-2024)</span>
-                        <a href="https://web.archive.org/web/20240423143301/https://veziapp.com/" class="text-[#bababa] hover:text-white underline text-sm">founder at vezi</a>
+                        <span class="text-[#bababa] text-xs">(2023)</span>
+                        <a href="https://www.ai-camp.org/" class="text-[#bababa] hover:text-white underline text-sm">ML engineer @ ai camp</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">ai inference for users at the enterprise scale at 1/10th of the cost and 10x the speed</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">built automated AI-based fraud detection w/ Django and custom highly documented RESTful API; weekly web-based report system w/ continous monitoring for nearly $30k monthly savings</p>
                     </div>
                   </div>
                 </div>
@@ -289,39 +313,11 @@
                   <div class="flex-1">
                     <div class="flex flex-col gap-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2023-2023)</span>
-                        <a href="https://www.unt.edu/" class="text-[#bababa] hover:text-white underline text-sm">research assistant at unt</a>
+                        <span class="text-[#bababa] text-xs">(2023-2024)</span>
+                        <a href="https://www.joinstemist.org/" class="text-[#bababa] hover:text-white underline text-sm">full-stack developer (volunteer) @ stemist education</a>
                         <span class="text-[#bababa] text-xs">[completed]</span>
                       </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">worked on VR technology for the military</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="text-[#bababa] mt-1">•</div>
-                  <div class="flex-1">
-                    <div class="flex flex-col gap-1">
-                      <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2021-2023)</span>
-                        <a href="https://web.archive.org/web/20230205192228/https://lucidofficial.xyz/" class="text-[#bababa] hover:text-white underline text-sm">founder at nova</a>
-                        <span class="text-[#bababa] text-xs">[completed]</span>
-                      </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">web proxy company that scaled to 850k monthly active users and $5k MRR through ad revenue; built at 13 years old, completely free and open source, with a focus on privacy and security</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="text-[#bababa] mt-1">•</div>
-                  <div class="flex-1">
-                    <div class="flex flex-col gap-1">
-                      <div class="flex items-center gap-2">
-                        <span class="text-[#bababa] text-xs">(2020-2020)</span>
-                        <a href="https://www.youtube.com/@thetechyguy3913" class="text-[#bababa] hover:text-white underline text-sm">content creator & programming tutor</a>
-                        <span class="text-[#bababa] text-xs">[completed]</span>
-                      </div>
-                      <p class="text-[#bababa] text-xs leading-relaxed">created programming videos on youtube and conducted 30+ person classes on python at 12</p>
+                      <p class="text-[#bababa] text-xs leading-relaxed">developed and deployed improved website UI + OAuth into production using Next.js; conducted UX interviews and investigated widespread latency + accessibility issues on the website; heavily optimized SEO</p>
                     </div>
                   </div>
                 </div>
@@ -384,7 +380,7 @@
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </a>
-                <a href="https://github.com/soontosh" class="border border-[#bababa] border-opacity-30 p-2 rounded-xl hover:-translate-y-1 hover:opacity-70 transition ease-in-out">
+                <a href="https://github.com/soontosh" target="_blank" class="border border-[#bababa] border-opacity-30 p-2 rounded-xl hover:-translate-y-1 hover:opacity-70 transition ease-in-out">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-6 h-6 text-[#bababa]">
                     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
@@ -418,22 +414,24 @@
 
         </div>
       </div>
-      
-      <!-- Next.js hydration comments -->
-      <!--$-->
-      <!--/$-->
-      <!--$-->
-      <!--/$-->
     </div>
 
-    <!-- Next.js scripts -->
-    <script src="_next/static/chunks/webpack-72a7fd73ad709a4c.js" async=""></script>
-    <script>(self.__next_f=self.__next_f||[]).push([0])</script>
-    <script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[5476,[\"177\",\"static/chunks/app/layout-2f8b7c6e8b3baa5f.js\"],\"default\"]\n3:I[7555,[],\"\"]\n4:I[1295,[],\"\"]\n5:I[894,[],\"ClientPageRoot\"]\n6:I[3340,[\"974\",\"static/chunks/app/page-933f8dfbdb38ba4b.js\"],\"default\"]\n9:I[9665,[],\"MetadataBoundary\"]\nb:I[9665,[],\"OutletBoundary\"]\ne:I[4911,[],\"AsyncMetadataOutlet\"]\n10:I[9665,[],\"ViewportBoundary\"]\n12:I[6614,[],\"\"]\n:HL[\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/2da42e9e2dde7ac8.css\",\"style\"]\n"])</script>
-    <script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"EDFSrVrDM4ti6nNWhj4EJ\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/2da42e9e2dde7ac8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_e8ce0c font-sans antialiased\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],null,[\"$\",\"$Lb\",null,{\"children\":[\"$Lc\",\"$Ld\",[\"$\",\"$Le\",null,{\"promise\":\"$@f\"}]]}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"M4D-oYEdoa0jvr-v6xUsZ\",{\"children\":[[\"$\",\"$L10\",null,{\"children\":\"$L11\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script>
-    <script>self.__next_f.push([1,"13:\"$Sreact.suspense\"\n14:I[4911,[],\"AsyncMetadata\"]\n7:{}\n8:{}\na:[\"$\",\"$13\",null,{\"fallback\":null,\"children\":[\"$\",\"$L14\",null,{\"promise\":\"$@15\"}]}]\n"])</script>
-    <script>self.__next_f.push([1,"d:null\n"])</script>
-    <script>self.__next_f.push([1,"11:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\nc:null\n"])</script>
-    <script>self.__next_f.push([1,"15:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"santosh patapati\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"17 yo developer, researcher, and entrepreneur. I build things that matter.\"}]],\"error\":null,\"digest\":\"$undefined\"}\nf:{\"metadata\":\"$15:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+    <script>
+      function updateTime() {
+        const now = new Date();
+        const cstTime = now.toLocaleString('en-US', {
+          timeZone: 'America/Chicago',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true
+        });
+        document.getElementById('current-time').textContent = cstTime + ' CT';
+      }
+
+      // Update time immediately and then every second
+      updateTime();
+      setInterval(updateTime, 1000);
+    </script>
   </body>
 </html>

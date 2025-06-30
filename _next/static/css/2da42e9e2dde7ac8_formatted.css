@@ -916,6 +916,12 @@ body {
   color: rgb(186 186 186/var(--tw-text-opacity, 1));
 }
 
+/* Text Colors */
+.text-\[\#e3e3e3\] {
+  --tw-text-opacity: 1;
+  color: rgb(240 240 240/var(--tw-text-opacity, 1));
+}
+
 .text-card-foreground {
   color: hsl(var(--card-foreground));
 }
