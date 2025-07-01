@@ -30,14 +30,14 @@ ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'localhost', '127.0.0.1']
 
 # Security settings for production
 SECURE_HSTS_SECONDS = 31536000  # 1 year
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
-SECURE_SSL_REDIRECT = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True if not DEBUG else False
+SECURE_HSTS_PRELOAD = True if not DEBUG else False
+SECURE_SSL_REDIRECT = True if not DEBUG else False
 # Disabled session and CSRF cookie settings since sessions are disabled
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
+# SESSION_COOKIE_SECURE = True if not DEBUG else False
+# CSRF_COOKIE_SECURE = True if not DEBUG else False
+SECURE_BROWSER_XSS_FILTER = True if not DEBUG else False
+SECURE_CONTENT_TYPE_NOSNIFF = True if not DEBUG else False
 
 
 # Application definition
