@@ -26,5 +26,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'santosh_website.settings')
 application = get_wsgi_application()
 
 # Vercel expects either a handler or app variable
-handler = application
+line_handler = application
 app = application
