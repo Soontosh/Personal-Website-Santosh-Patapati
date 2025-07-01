@@ -140,8 +140,12 @@ STATICFILES_DIRS = [
 # Use consistent static root for Vercel
 STATIC_ROOT = BASE_DIR / "staticfiles_build" / "static"
 
-# WhiteNoise configuration for better static file serving
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# WhiteNoise configuration for better static file serving on Vercel
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+# Additional WhiteNoise settings for Vercel
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_AUTOREFRESH = True
 
 
 # Default primary key field type
