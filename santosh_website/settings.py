@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '78#a5kvj2)ofjp2#^_u5^6(d)$69=$mg_4t&rdo^d1=u%1nia9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'localhost', '127.0.0.1']
 
@@ -132,9 +132,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    BASE_DIR / "portfolio" / "static",
+    os.path.join(BASE_DIR, 'portfolio', 'static'),
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles_build" / "static"
